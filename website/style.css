@@ -1,0 +1,197 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* Global */
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container p{
+    color: #35424a;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+/*Header **/
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3pc solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display:inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#showcase{
+min-height: 600px;
+background: url('pic3.jpg') no-repeat 0;
+text-align: center;
+color: #ffffff;
+background-position: center;
+max-width: 100%;
+background-color: #e8491d;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size:20px;
+}
+
+#newsletter{
+    padding: 10px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1{
+    float-left:margin-top;
+    font-size-adjust: 100px;
+}
+#newsletter form{
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes{
+    margin-top: 10px;
+
+
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+@media(max-width: 768px){
+    header #brandig,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100px;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+}
+/*--------------------app-banner-----------------------*/
+#app-banner
+{
+    background-image: linear-gradient(to right,#35424a,#e8491d);
+    padding: 50px 0;
+}
+#app-banner h1
+{
+    margin-top: 20px;
+    color: #fff;
+}
+#app-banner img
+{
+    width: 250px;
+    margin: 50px;
+}
+/*----------footer------------*/
+#footer
+{
+    background: #f8f9fd;
+padding: 20px 10px 8px;
+}
+.footer-image
+{
+    margin: 30px 0;
+    width: 100px;
+}
+#footer p
+{
+    color: #333;
+}
+#footer a img
+{
+    width: 50px;
+}
+.fa-heart
+{
+    color: red;
+}
+hr{
+    background-color: #ccc;
+}
